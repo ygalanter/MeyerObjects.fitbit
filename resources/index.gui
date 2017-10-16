@@ -1,0 +1,57 @@
+ <svg class="portret-view">
+  <defs>
+    
+  <symbol id="clock-widget" class='clock-widget' type='clock-widget'
+		focusable='false' pointer-events='visible' system-events='all'
+		x='0' y='0' width='100%' height='100%' data-size='16'/>
+  </defs>
+
+  <!-- clock widget -->
+  <use id="analog-watch-hands" href='#clock-widget'>
+
+
+    <!-- clock hands -->
+    <g transform='translate(50%,50%)'>
+      
+      <g id="minute-hand">
+         <line x1="-80" y1="-80" x2="-80" y2="80" class="minute_hand" />
+         <line x1="-80" y1="80" x2="80" y2="80" class="minute_hand" />        
+         <line x1="80" y1="80" x2="80" y2="-80" class="minute_hand" /> 
+         <line x1="80" y1="-80" x2="5" y2="-80" class="minute_hand" />      
+         <line x1="5" y1="-80" x2="5" y2="0" class="minute_hand" />        
+         <line x1="5" y1="0" x2="-5" y2="0" class="minute_hand" />    
+         <line x1="-5" y1="0" x2="-5" y2="-80" class="minute_hand" /> 
+         <line x1="-5" y1="-80" x2="-80" y2="-80" class="minute_hand" />          
+       </g>
+      
+      <g id="hour-hand">
+         <line x1="-80" y1="-80" x2="-80" y2="80" class="hour_hand" />
+         <line x1="-80" y1="80" x2="80" y2="80" class="hour_hand" />        
+         <line x1="80" y1="80" x2="80" y2="-80" class="hour_hand" /> 
+         <line x1="80" y1="-80" x2="10" y2="-80" class="hour_hand" />      
+         <line x1="10" y1="-80" x2="10" y2="0" class="hour_hand" />        
+         <line x1="10" y1="0" x2="-10" y2="0" class="hour_hand" />    
+         <line x1="-10" y1="0" x2="-10" y2="-80" class="hour_hand" /> 
+         <line x1="-10" y1="-80" x2="-80" y2="-80" class="hour_hand" />           
+      </g>
+      
+      <g id="second-hand">
+         <line x1="-80" y1="-80" x2="-80" y2="80" class="second_hand" />
+         <line x1="-80" y1="80" x2="80" y2="80" class="second_hand" />        
+         <line x1="80" y1="80" x2="80" y2="-80" class="second_hand" /> 
+         <line x1="80" y1="-80" x2="0" y2="-80" class="second_hand" />      
+         <line x1="0" y1="-80" x2="0" y2="0" class="second_hand" />        
+         <line x1="0" y1="0" x2="0" y2="0" class="second_hand" />    
+         <line x1="0" y1="0" x2="0" y2="-80" class="second_hand" /> 
+         <line x1="0" y1="-80" x2="-80" y2="-80" class="second_hand" />           
+      </g>      
+      
+      <g id="dot">
+          <circle cx="0" cy="0" r="20" fill="#8b0000"/>
+          <circle cx="0" cy="0" r="5" fill="fb-red"/>
+      </g>
+    </g>
+
+  </use>
+
+</svg>

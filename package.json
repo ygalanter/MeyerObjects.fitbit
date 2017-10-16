@@ -1,0 +1,10 @@
+{
+  "fitbit": {
+    "appUUID": "1c07ff30-ea45-4b97-b10b-e3e9e1ec7b11",
+    "appType": "app",
+    "appDisplayName": "Analogue",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#9c27b0",
+    "requestedPermissions": []
+  }
+}
