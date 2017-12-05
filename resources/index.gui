@@ -36,14 +36,14 @@
       </g>
       
       <g id="second-hand">
-         <line x1="-80" y1="-80" x2="-80" y2="80" class="second_hand" />
-         <line x1="-80" y1="80" x2="80" y2="80" class="second_hand" />        
-         <line x1="80" y1="80" x2="80" y2="-80" class="second_hand" /> 
-         <line x1="80" y1="-80" x2="0" y2="-80" class="second_hand" />      
-         <line x1="0" y1="-80" x2="0" y2="0" class="second_hand" />        
-         <line x1="0" y1="0" x2="0" y2="0" class="second_hand" />    
-         <line x1="0" y1="0" x2="0" y2="-80" class="second_hand" /> 
-         <line x1="0" y1="-80" x2="-80" y2="-80" class="second_hand" />           
+         <line id="s1" x1="-80" y1="-80" x2="-80" y2="80" class="second_hand" />
+         <line id="s2" x1="-80" y1="80" x2="80" y2="80" class="second_hand" />        
+         <line id="s3" x1="80" y1="80" x2="80" y2="-80" class="second_hand" /> 
+         <line id="s4" x1="80" y1="-80" x2="0" y2="-80" class="second_hand" />      
+         <line id="s5" x1="0" y1="-80" x2="0" y2="0" class="second_hand" />        
+         <line id="s6" x1="0" y1="0" x2="0" y2="0" class="second_hand" />    
+         <line id="s7" x1="0" y1="0" x2="0" y2="-80" class="second_hand" /> 
+         <line id="s8" x1="0" y1="-80" x2="-80" y2="-80" class="second_hand" />           
       </g>      
       
       <g id="dot">
@@ -51,7 +51,12 @@
           <circle cx="0" cy="0" r="5" fill="fb-red"/>
       </g>
     </g>
-
+ 
   </use>
+   
+  <text id="lbltime" x="2" y="30" text-anchor="start" class="text" /> 
+  <text id="lbldate" x="2" y="246" text-anchor="start" class="text" /> 
+  <text id="lbldow" x="338" y="246" text-anchor="end" class="text" /> 
+  <text id="lblsteps" x="338" y="30" text-anchor="end" class="text" /> 
 
 </svg>

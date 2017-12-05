@@ -1,5 +1,12 @@
 .background {viewport-fill: fb-slate-press}
-
 .minute_hand {fill: fb-yellow; stroke-width: 3}
 .hour_hand {fill: fb-green; stroke-width: 4}
 .second_hand {fill: fb-white; stroke-width: 2}
+
+
+.text {
+  font-size: 30;
+  font-family: Colfax-Light;
+  text-length: 20;
+  fill: fb-white; 
+}
